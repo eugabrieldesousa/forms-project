@@ -1,0 +1,99 @@
+html {
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 10rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.container-form-title {
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem 2rem 0rem 2rem;
+    border-radius: 1rem;
+    border-top: .8rem;
+    border-color: blueviolet;
+    border-top-style: inset;
+    box-shadow: 10px 10px 13px -11px rgba(0, 0, 0, 0.44);
+}
+
+.questions {
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 13px -11px rgba(0, 0, 0, 0.44);
+}
+
+.questions>p {
+    padding: .7rem;
+}
+
+.questions>h3 {
+    padding: .7rem;
+}
+
+.questions>input {
+    margin-left: .7rem;
+    width: 40rem;
+    border-bottom-style: inset;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-color: #ddd;
+    margin-top: .4rem;
+    padding: .4rem;
+}
+
+.questions>input:focus {
+    outline: none;
+}
+
+.container-form-title>* {
+    margin: 1rem;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.title-question {
+    font-weight: 500;
+    font-size: 1.0rem;
+}
+
+.submit-button {
+    margin: 0rem 2rem;
+    background-color: blueviolet;
+    border-style: none;
+    padding: .5rem 1rem;
+    color: white;
+    border-radius: .2rem;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+}
+
+.submit-button:active {
+    background-color: rgb(89, 33, 142);
+}
+
+
+.form-text {
+    font-size: .9rem;
+}
+
+.span {
+    font-weight: 700;
+    color: blueviolet;
+}
